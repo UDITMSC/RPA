@@ -1,0 +1,163 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="_8C7iii" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1168,1649" sap2010:WorkflowViewState.IdRef="_8C7iii_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:ss="clr-namespace:System.Security;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="64">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Net</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="46">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Java.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.PDF.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="_8C7iii" sap:VirtualizedContainerService.HintSize="538,1584" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence sap:VirtualizedContainerService.HintSize="496,1496" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <Sequence.Variables>
+        <Variable x:TypeArguments="x:String" Name="usrname" />
+        <Variable x:TypeArguments="ss:SecureString" Name="pwd" />
+        <Variable x:TypeArguments="x:String" Name="email" />
+      </Sequence.Variables>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:GetRobotCredential AssetName="EmailLogin" CacheStrategy="None" DisplayName="Get Credential" FolderPath="prateek.r.karkera@gmail.com's workspace" sap:VirtualizedContainerService.HintSize="434,168" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1" Password="[pwd]" Username="[email]">
+        <ui:GetRobotCredential.TimeoutMS>
+          <InArgument x:TypeArguments="x:Int32" />
+        </ui:GetRobotCredential.TimeoutMS>
+      </ui:GetRobotCredential>
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Gmail" sap:VirtualizedContainerService.HintSize="434,1177" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="471d48eb-9b59-4131-a47d-7224460b5dc0" Version="V2">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="400,960" sap2010:WorkflowViewState.IdRef="Sequence_3">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT identifierId'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="358,218" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="471d48eb-9b59-4131-a47d-7224460b5dc0" Text="[email]" Version="V3">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="https://accounts.google.com/v3/signin/identifier?dsh=S-670217636%3A1673607064456889&amp;continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&amp;rip=1&amp;sacu=1&amp;service=mail&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin&amp;ifkv=AeAAQh5GzKeRX9K54ojM4C-h5p8Kgp30nTpBJdxid46U6idrkfMptH8S62XiOuRiiRCXqq6lLwR31A" DesignTimeRectangle="786, 495, 364, 52" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'INPUT identifierId'" FullSelectorArgument="&lt;webctrl id='identifierId' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='identifierId' tag='INPUT' type='email' class='whsOnd zHQkBf' aaname='' /&gt;" Guid="63b409be-4ca6-4a6f-b2e4-48da367ea4f0" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAXAAAAA4CAYAAADkZaOKAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAOISURBVHhe7dg/SxtxGMDxew1uvgPXbh19Bw4Obhk7SZcShNJ0kEqRkk1wsC4KRRpKKS6to25SXKQUlyAkaUxMYiJRghKe/p7cXXJJezFRC3no9wMP3J/cvwxfz3jiHGavZH69INNLOZl60T/xapIe+OzUallKuuu4KFNbtc6nVGmv8Md6Yu/SLd1Kq3ktrba/XdpVefOiKIe6XCpLIjxfdDni9GtBZj/WgzWnVZGUO36/5Z5pKyfp42D7AN3nX9+n55n5oPd3KZnVgmS6F9JnDNaP3DOtnUvvag3ZXs7L9qlbjH1ed3zyl/Qu5c7/Nnr+fqvfGv3fJ8MwTGS00dpqbbbydOFv4Q4nXiRug0YOuGtutiyplZzMdK85esAHQxy9p3EC3rvf+IAPPoP/2eAacc+r9x35LsOJuy8CzjDMKKPN1nZ7WnPdsLhTk0ozfBUexWME3L3FruQl/b0Z7NDgjfcGPvelEaw5//oNfKMi7tSBEd7Ag/8o9H4A4KG00dpqbba22wvfvseLt3qMgNdl7VVe3mdv3PKNlA6KMjtGwDvbk+4eCu749pWcfHYh3qx2IntXwGddjEu3buWyKunX+lk9akjAW27Z3Wv6SP91Ce51pSTa7/jnbcn+Zk4Wdi6krl9vqyGZrZKc6HUB4B601eFbuKcLOuPTuPW/1usM/Ukh0Au4a9rPM0noH5FkTp7vnknSBXP3XD80QsDlVuo/zuTZS//aCxtlObn299wV8Lm1Yve4xKeL4M16SMBV4VxSy/4xT9+5PzTVoMTDnve6LpmNvDzR72cpL6mDyE83AHAPYW8fEHC7Bn9CAQBLCDgBB2DUfx1wALCMgAOAUQQcAIwi4ABgFAEHAKMIOAAYRcABwCgCDgBGEXAAMIqAA4BRBBwAjCLgAGAUAQcAowg4ABhFwAHAKAIOAEYRcAAwioADgFEEHACMIuAAYBQBBwCjCDgAGEXAAcAoAg4ARhFwADCKgAOAUQQcAIwi4ABgFAEHAKMIOAAYRcABwCgCDgBGEXAAMIqAA4BRBBwAjCLgAGAUAQcAowg4ABhFwAHAKAIOAEYRcAAwioADgFEEHACMIuAAYBQBBwCjugGfXvIXKs12sAsAMKm01dpsbbc3v17orCzu1Ig4AEwwbbS2Wput7fYOs1edkusGhmEYZvJHm63t9rTquqA1J+QMwzCTO9pobbU2W0TkN2Kq2me40pVSAAAAAElFTkSuQmCC" InformativeScreenshot="428ad0077c276f8b2898d298c368cab0.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Gmail' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive" />
+                </uix:NTypeInto.Target>
+              </uix:NTypeInto>
+              <uix:NClick ClickType="Single" DisplayName="Click 'Next'" sap:VirtualizedContainerService.HintSize="358,157" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="471d48eb-9b59-4131-a47d-7224460b5dc0" Version="V3">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://accounts.google.com/v3/signin/identifier?dsh=S-670217636%3A1673607064456889&amp;continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&amp;rip=1&amp;sacu=1&amp;service=mail&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin&amp;ifkv=AeAAQh5GzKeRX9K54ojM4C-h5p8Kgp30nTpBJdxid46U6idrkfMptH8S62XiOuRiiRCXqq6lLwR31A" DesignTimeRectangle="1097, 711, 31, 20" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Next'" FullSelectorArgument="&lt;webctrl parentid='identifierNext' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='identifierNext' tag='SPAN' type='' class='VfPpkd-vQzf8d' aaname='Next' check:innerText='Next' /&gt;" Guid="55118df3-36cf-4b67-a51c-5a4a4570cd2c" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACMAAAAYCAYAAABwZEQ3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIFSURBVEhL7ZRLLwNRFMd9Bh/AJ7C18BlE7GzExkoiVo2NjYSNR2IhHgtCgnizEW+hRIR4NFGvEiXoIy19ms502ulx/3fcVjVDPBJdzE1OZube8/jd/7l3CgotD5QvZsIYmQljZPkJU9HnI3coSUmNaGAnmuW0daVQVElR7dhz1vxfWw4Mhj+qUfXQU9rpL2FEnUuvmrOWAxOQNFISKdpwyGmnf4NxMKe92zjJaoqaF0J87SNMabuXwwIa44WtTR1JVNT4yGMQa3epVNLqocp+P3nC+ibnT2IUT+oxYozsvxjDgLh+MkDBmEY3/gQv/B4GBa3sW2VJV85lsswEaPta4UVG3xIDDOuThxL3BVzneoSqBp9o+ljiuQGI9bqJwOcwImGCHebxAykLBsERWaODuzgHgy8UcDJwGN6xgVO3ypUDFICE77faJJyQEMpAXtt9PA3TsRrOkVoMxCMP4pvm9XY9s/ia4cxl+BEMTPRfY7UFTMNskJ8RtEj4YdctiyEq79VBxEagDNRFG3+ljDC0COP9mdl1KhwQh33OJvEnvsUNXDqTOQT+V5iDkj3WCF8r6/aRi9VBvmXm17Wpz8O+hMH/Bv8dAYM57BzKxJhqGHgu2GNU3OymtpUwVwStBTjyPgaT/NDiYiAeYFA3xcLXLjIKp2HywUwYIzNhjMyEMbI8gnmgV6vdx/4ciL4pAAAAAElFTkSuQmCC" InformativeScreenshot="ff25c8ba34cddfcfcfe7e8c5b3ea97b8.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Gmail' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                        <uix:Target DesignTimeRectangle="1073, 703, 79, 36" ElementType="Button" FriendlyName="'Next'" FullSelectorArgument="&lt;webctrl parentid='identifierNext' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='identifierNext' tag='BUTTON' type='' class='VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 qIypjc TrZEUc lw1w4b' aaname='Next' check:innerText='Next' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFMAAAAoCAYAAACCV8YCAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALUSURBVGhD7ZpLa9RQFMf9DC5d+AncuvAziLhzU9y4EoqrIogboW58gAvxsVAUVNT62pSqVdEqIpaqFeurilXsdFo67TybSeaROd7/HU+a2Fic8UyKzvnBn2ly781Mfjk3SeGuI0UMlSlIRObr6Qr1nF+gDftStL5vWvObwA88wVeYQCYaVGJrga+w0EAmTMcN0KweeGMCmVqV7QXemEBmXEfNn4VRmQJhVKZAGJUpEEZlCoRRmQJhVKZAGJUpECYxmdtPz1M6X6e6T3T2aSnS9viTRyWvQbsvL0b2/ythEpcJMiWfdob+fZWUyd/zca4a296JMInLzDo+ebUGPZx0gzaV2WL4JCfNST7/WiG32qD+obxt+1XmliNzVjakgyXTdu2lQxv3p+wYjJ2YqdLmQ7O040yGZgvNizT4pkyVenMMc3F0KfI7OhEmcZmomD0DWcqVffqSqVlxYZkQNmK2q0bK8HuX+m5k6clnz0q69FMMxKJ94IVj+0LusQdF6jm3QNdfOfbYEIz23qvZFb9FOsyayMQ2hNTMw+jKmBORiZMvuj6NfatYseiLCpwy4hH8jQvwNl21lQupEMp9u2qa80lCCCoT03P8eyWQefReYcVUZTAex8H4A4PN6b5oxu+6sPww60qZCN//fOOOZe69mbP3SExx7oeqO3g7T9tONUXyhUBlorpxG+jqyuRgioPwPfPZlGcF42F1a9yxn9jmN4A771wrEe+r2IdKPjlStG1bT8zTjPkeHO+u6Xf8UXN/J8OsuUy8b+K9k2ViHyoPlVk2VQvwOTRRpk39aTo8XLAViVsDxOO4qVzdPnTwYMN4iEV1N8zw+x+WK7xTYRKT+T+HUZkCYVSmQBiVKRBGZQqEUZkCYVSmQBiVKRBGZQqEUZkCYQKZunCrvcQu3NIlhe0ldkmhLnZtPfAVu9gVoAGmVerqgR94CosEEZnK36EyxSD6AR1qFXvJmxUxAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, Image" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+              </uix:NClick>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="358,218" sap2010:WorkflowViewState.IdRef="NTypeInto_2" IsPassword="True" ScopeIdentifier="471d48eb-9b59-4131-a47d-7224460b5dc0" SecureText="[new System.Net.NetworkCredential(String.Empty,pwd).SecurePassword]" Version="V3">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="https://accounts.google.com/v3/signin/challenge/pwd?TL=AC7eWV36cxzBmFtJt2qPdGxRa4ZK9XKUyfqsa29GZr6QMYWQo7TCHD3AbQwZ5i1I&amp;checkConnection=youtube%3A180%3A0&amp;checkedDomains=youtube&amp;cid=1&amp;continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&amp;dsh=S-670217636%3A1673607064456889&amp;flowEntry=ServiceLogin&amp;flowName=GlifWebSignIn&amp;ifkv=AeAAQh5GzKeRX9K54ojM4C-h5p8Kgp30nTpBJdxid46U6idrkfMptH8S62XiOuRiiRCXqq6lLwR31A&amp;pstMsg=1&amp;rip=1&amp;service=mail" DesignTimeRectangle="786, 519, 364, 52" DesignTimeScaleFactor="1" ElementType="InputBoxPassword" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='password' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='password' class='whsOnd zHQkBf' aaname='' /&gt;" Guid="7ed2a668-f2a4-4b3f-baa9-431a46064111" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAXAAAAA4CAYAAADkZaOKAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAASWSURBVHhe7di/axtnGMBx/Q3esrXQQau3jt48esjgzWOmkCUYg4lKMQ5GFEMGQShKKchQTEyHYArB0MXuUEQIiBBCaTEisnySZTuSa7lHjHn6PHenn7YTNzipnvb7gRdOp9N7P8BfvVZKVHG7LTcfVuXGXEXG7g6Oyx3K8t2qrNWTl/1eBDJWOExeiNQ3qr3X9l52T6KP1fdkZuh8NpZfJMf1zTGoLRu5iuRetWTlfnIN0VyBFOMDIr3zHslatv9a+679Xefpv9aIfS45x8GB5B7syHj3ujvzn0rz94YsJ+9N5xtSPrP96qgp64WqTOpzHl8IZCM4jffrecb1GppbuzK71Y6uO1MMpfSDPQs75oJn3b22oXs79xyG733QL3+EA8+ewWCM7rBGW6ut2SZlGxeFuzMudw0BPzuQRY3NZhi9M2hojmFhMZCJ3K7MvGOu8pMdmXrS0q0kYkG8/4MDHmgcZwMpSSib31Xk1tOWhFGcL3kWp8ey+b0e9/OfyY6Ot9K0619O5g73JbNQk1w+maNcl6l8TR4tde5Hr39pR1bKth2z+x/L7+uVDAX63HMg4AzGf21Ys63dKau57bi9eij7x52l4lV8YMBfBpJe2pO4RXEIp1ffSNNOHbZkrVCX32zR+Z6AS6ihmq3IzMZRZ4cUCxWZLBzEczU0ivc0etX4vc28HvvUjtUV8vNAJq8a8Hu6Um681TC2df4dmdBjw+Q/gMyv9i1oK+6arnrj+cJnen/ZupRDvQn9TDfg0fVWZeW1lVU/o8d1A57Ml76vn4teNyX3lb7ONXQrZs8wrceX7dnoSv5RtiKLz2yu4UDHz3TmJ/viOpXw9Z7c0vNeFnAAflijrdXWbGt3qrP6/mfxNhbw898MF/38MRDwM43P13pstJJVJ01Zyyc/RcztSGYrCfL7Ah6tSndlvVM4c9qS9WSu9HxVcs/7Vr66er4zH1/jtK5uF5euGPCFXcl8o/Pp58azNSmdJO8FDcnYfdh8+qWTW9J7f2lv/CWlH+OfSeJz9X5CCV/V5I6G2fYP/ISi7L+Fice9myk97nzhJPTLwOb9Ur+0oue00dRUmwtW2CdvosDbeaa+7btXAO5Zq+1v29qdsg0b7mzXZPpBb4X6UVjAB34DB4B/X6fbLgNuP5Wk53X13beC/SgIOIAR5DrgAPB/RsABwCkCDgBOEXAAcIqAA4BTBBwAnCLgAOAUAQcApwg4ADhFwAHAKQIOAE4RcABwioADgFPXFvDPPv8i2QIAfAoEHACcIuAA4BQBBwCnCDgAOEXAAcApAg4AThFwAHCKgAOAUwQcAJwi4ADgFAEHAKcIOAA4RcABwCkCDgBOEXAAcIqAA4BTBBwAnCLgAODUtQUcAPBpEXAAcIqAA4BTBBwAnCLgAOAUAQcApwg4ADhFwAHAKQIOAE4RcABwioADgFMEHACcIuAA4BQBBwCnugG/MRdv7B+fJW8BAEaVtdqabe1O3XxYjV7cXj0k4gAwwqzR1mprtrU7VdxuRyW3HQwGg8EY/WHNtnanrOq2YTUn5AwGgzG6wxptrbZmi4j8DQ/o5XcfzMPSAAAAAElFTkSuQmCC" InformativeScreenshot="67fe3c9416acaefe4adaf0a523882cc4.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Gmail' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive" />
+                </uix:NTypeInto.Target>
+              </uix:NTypeInto>
+              <uix:NClick ClickType="Single" DisplayName="Click 'Next'" sap:VirtualizedContainerService.HintSize="358,157" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="471d48eb-9b59-4131-a47d-7224460b5dc0" Version="V3">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://accounts.google.com/v3/signin/challenge/pwd?TL=AC7eWV36cxzBmFtJt2qPdGxRa4ZK9XKUyfqsa29GZr6QMYWQo7TCHD3AbQwZ5i1I&amp;checkConnection=youtube%3A180%3A0&amp;checkedDomains=youtube&amp;cid=1&amp;continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&amp;dsh=S-670217636%3A1673607064456889&amp;flowEntry=ServiceLogin&amp;flowName=GlifWebSignIn&amp;ifkv=AeAAQh5GzKeRX9K54ojM4C-h5p8Kgp30nTpBJdxid46U6idrkfMptH8S62XiOuRiiRCXqq6lLwR31A&amp;pstMsg=1&amp;rip=1&amp;service=mail" DesignTimeRectangle="1097, 665, 31, 20" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Next'" FullSelectorArgument="&lt;webctrl parentid='passwordNext' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='passwordNext' tag='SPAN' type='' class='VfPpkd-vQzf8d' aaname='Next' check:innerText='Next' /&gt;" Guid="9195193b-1f75-4115-98f9-d317a64749cd" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACMAAAAYCAYAAABwZEQ3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIFSURBVEhL7ZRLLwNRFMd9Bh/AJ7C18BlE7GzExkoiVo2NjYSNR2IhHgtCgnizEW+hRIR4NFGvEiXoIy19ms502ulx/3fcVjVDPBJdzE1OZube8/jd/7l3CgotD5QvZsIYmQljZPkJU9HnI3coSUmNaGAnmuW0daVQVElR7dhz1vxfWw4Mhj+qUfXQU9rpL2FEnUuvmrOWAxOQNFISKdpwyGmnf4NxMKe92zjJaoqaF0J87SNMabuXwwIa44WtTR1JVNT4yGMQa3epVNLqocp+P3nC+ibnT2IUT+oxYozsvxjDgLh+MkDBmEY3/gQv/B4GBa3sW2VJV85lsswEaPta4UVG3xIDDOuThxL3BVzneoSqBp9o+ljiuQGI9bqJwOcwImGCHebxAykLBsERWaODuzgHgy8UcDJwGN6xgVO3ypUDFICE77faJJyQEMpAXtt9PA3TsRrOkVoMxCMP4pvm9XY9s/ia4cxl+BEMTPRfY7UFTMNskJ8RtEj4YdctiyEq79VBxEagDNRFG3+ljDC0COP9mdl1KhwQh33OJvEnvsUNXDqTOQT+V5iDkj3WCF8r6/aRi9VBvmXm17Wpz8O+hMH/Bv8dAYM57BzKxJhqGHgu2GNU3OymtpUwVwStBTjyPgaT/NDiYiAeYFA3xcLXLjIKp2HywUwYIzNhjMyEMbI8gnmgV6vdx/4ciL4pAAAAAElFTkSuQmCC" InformativeScreenshot="7263792f74985af716c0f771cc692976.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Gmail' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                        <uix:Target DesignTimeRectangle="1073, 657, 79, 36" ElementType="Button" FriendlyName="'Next'" FullSelectorArgument="&lt;webctrl parentid='passwordNext' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='passwordNext' tag='BUTTON' type='' class='VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 qIypjc TrZEUc lw1w4b' aaname='Next' check:innerText='Next' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFMAAAAoCAYAAACCV8YCAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALUSURBVGhD7ZpLa9RQFMf9DC5d+AncuvAziLhzU9y4EoqrIogboW58gAvxsVAUVNT62pSqVdEqIpaqFeurilXsdFo67TybSeaROd7/HU+a2Fic8UyKzvnBn2ly781Mfjk3SeGuI0UMlSlIRObr6Qr1nF+gDftStL5vWvObwA88wVeYQCYaVGJrga+w0EAmTMcN0KweeGMCmVqV7QXemEBmXEfNn4VRmQJhVKZAGJUpEEZlCoRRmQJhVKZAGJUpECYxmdtPz1M6X6e6T3T2aSnS9viTRyWvQbsvL0b2/ythEpcJMiWfdob+fZWUyd/zca4a296JMInLzDo+ebUGPZx0gzaV2WL4JCfNST7/WiG32qD+obxt+1XmliNzVjakgyXTdu2lQxv3p+wYjJ2YqdLmQ7O040yGZgvNizT4pkyVenMMc3F0KfI7OhEmcZmomD0DWcqVffqSqVlxYZkQNmK2q0bK8HuX+m5k6clnz0q69FMMxKJ94IVj+0LusQdF6jm3QNdfOfbYEIz23qvZFb9FOsyayMQ2hNTMw+jKmBORiZMvuj6NfatYseiLCpwy4hH8jQvwNl21lQupEMp9u2qa80lCCCoT03P8eyWQefReYcVUZTAex8H4A4PN6b5oxu+6sPww60qZCN//fOOOZe69mbP3SExx7oeqO3g7T9tONUXyhUBlorpxG+jqyuRgioPwPfPZlGcF42F1a9yxn9jmN4A771wrEe+r2IdKPjlStG1bT8zTjPkeHO+u6Xf8UXN/J8OsuUy8b+K9k2ViHyoPlVk2VQvwOTRRpk39aTo8XLAViVsDxOO4qVzdPnTwYMN4iEV1N8zw+x+WK7xTYRKT+T+HUZkCYVSmQBiVKRBGZQqEUZkCYVSmQBiVKRBGZQqEUZkCYQKZunCrvcQu3NIlhe0ldkmhLnZtPfAVu9gVoAGmVerqgR94CosEEZnK36EyxSD6AR1qFXvJmxUxAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, Image" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+              </uix:NClick>
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARHSURBVFhHvZddbBRVFMf7YrAq+OSbD6Kgb0qUUh60xq9VtA8k1EJrH1CsGIM+GLUmBA0kFi0WSMCHLcVCTMO2GmjFCiUFpH60sUjMEtIGLaAWama32w92dt2vOf7PndPd3M7sdmobf8k/M/fec8//zJ07s7NFXrEsawlUnclkmqEBaAxKisLS14yYKo6VafMHyR5A4hYoTh5BbAw6iLnLJc3cQZ7bkKQRSttp5w7mpqBdKKRY0noDE+7HxEuSZ94gVxA5l0n6wiDwYUwIyVyN9I0RMls/p4l33qDwi8+R4VtNxjOlFF7no/G3XyfzcBOlR/6UaB3kNHBYITbuyJU7zNOj12ly+/tkPL2KjKdKCgsxkx++p+bMhIvIuxIYuB0BjmWPn+qi0Atl7mYFFCp/nP45e0qy5IAH3w7nnsBAo8RkMY8cck3uVVMN2yWTDrwaxNYGFfGjpu12vnK3pKxIbRVFD+yj+DdHKd51DOf7KfJatRYztbueyLIkmw68UtqtQEeLjCl4s4Wef0xLyBqrWUuJ8/0S5SQx0EfhDeV0c/+n0pMfeDYrc5zfiYb2konufdNhPr7lZbKmpiQiP5YZlbPCwNPEKizm5a+WPoUVG6ZU9yKarLsna86PXGYiIhELB7zX8/I3S1uRuVpPqZ5blMx9d1FozUqKnzwuowsLvP1cwIC0FelffNkCWImjS4lSKRldWODdzwWMSVuR6r1bKyB9sUpG3Hnyo6hnnb2kXwi8DS4gKW1F6vQirYDM79tkxB03o3xq/VGz4gIS/2sBLecSMstmuoCwtBWOWxDcICPuuBnlU3u/YwXULdA34YVntQJGeh+kZGbum/CKkXEUcG7QsQfUJpzxGH6cNT/etZQeDayljuEeGfVOoC/pKGB0Qn81w9vPLyJtm1uxqxTrKab6jkdoZWCdkq/jFQrHxyVidm7GLarYa2rmG/0xGc0B70ouYAkq0Ub39O3Imk+rpvtdmkjM/ipO4iet7khcM2e1Oe+/icMd6vcAjYN2t82NqEFlX73kKKL8683Ue/28RDm5PH6NNnUGYDipmfNqxBKO5W9S5gxWYTk6tB1y4lqvo4BpVXz7FjVeaKH2yyfoy99O0mfBVnq1ZyuVBCrUeOmhOnrik7+yBXw/pH/XwisJz/vE3gadu2Q8yxdDnQ5zrypp3Uhlu392PPsMvHaKbQ7082f4RTskR/cfP+B21LiaFFJpWyUdCHZKlhzw+BWHW8VWB8uyDAH89aoxaoZo6097aFWbvcSzafOZD2gwMiyzcyD33zjcK3buIGCFWxEMb87Dg8doy3c7aE1nLa1ur1RX6uvYRLWnt6m9MBS5ItE6bI4LfEhsCiMrEZS58wa5eNkLX/lMUEQxJjZA//ljAHP5j+tOnLrfcy/IavA/Yn5xeIJjoSbM1R+1+YBki6H1SOyH+iEDSoj4nPv8iKlEDfYbblaKiv4FoeF/NqqvoEMAAAAASUVORK5CYII=" InformativeScreenshot="c9b0c1434d9ddf6d85a9ea795c97704a.jpg" Selector="&lt;html app='chrome.exe' title='Gmail' /&gt;" Url="https://accounts.google.com/v3/signin/identifier?dsh=S-670217636%3A1673607064456889&amp;continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&amp;rip=1&amp;sacu=1&amp;service=mail&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin&amp;ifkv=AeAAQh5GzKeRX9K54ojM4C-h5p8Kgp30nTpBJdxid46U6idrkfMptH8S62XiOuRiiRCXqq6lLwR31A" />
+        </uix:NApplicationCard.TargetApp>
+      </uix:NApplicationCard>
+    </Sequence>
+  </Sequence>
+</Activity>
